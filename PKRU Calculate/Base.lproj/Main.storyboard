@@ -44,6 +44,9 @@
                                     <color key="titleColor" red="1" green="0.40000000596046448" blue="0.40000000596046448" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="calculateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qVX-84-etb"/>
+                                </connections>
                             </button>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Number" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="N7H-wh-zWe">
                                 <rect key="frame" x="145" y="321" width="124" height="30"/>
@@ -68,6 +71,13 @@
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="Number1Outlet" destination="xHE-yy-sO1" id="u1s-bj-0eI"/>
+                        <outlet property="Number2Outlet" destination="N7H-wh-zWe" id="bUe-lc-IpI"/>
+                        <outlet property="NumberOutlet" destination="xHE-yy-sO1" id="ZD8-2F-yXg"/>
+                        <outlet property="andwerOutlet" destination="Q50-yi-DH1" id="QAR-OG-i5p"/>
+                        <outlet property="calculateButton" destination="1Hk-Jd-mSP" id="WbU-Jp-Vby"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
